@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>다중적</title>
+    <link rel="icon" href="icon/Jeok-favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="container">
+        <div class="tv-container">
+            <div id="tv-body">
+                <svg version="1.1" id="tv" x="0px" y="0px" viewBox="0 0 634.9 529.8"
+                    style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
+                    <style type="text/css">
+                        .st0 {
+                            fill: #DBDAD5;
+                        }
+
+                        .st1 {
+                            fill: #746E70;
+                        }
+
+                        .st2 {
+                            fill: #F2EDE9;
+                        }
+
+                        .st3 {
+                            fill: #E5E2E1;
+                        }
+
+                        .st4 {
+                            fill: #C8CDD0;
+                        }
+
+                        .st5 {
+                            fill: url(#yellow_00000134956824226244576890000002181026790783497130_);
+                        }
+
+                        .st6 {
+                            fill: url(#green_00000164516407899064307730000001586575737855313572_);
+                        }
+
+                        .st7 {
+                            fill: url(#red_00000053542858689051996740000011554816490251710614_);
+                        }
+                    </style>
+                    <g class="entire-graphic">
+                        <g class="tv-graphic">
+                            <path class="st0" d="M614.6,0H23.4C12.3,0,3.2,8.4,3.2,18.8L0,503.2c-0.1,10.5,9,19,20.2,19h594.4c11.2,0,20.2-8.5,20.2-18.9V18.9
+		C634.9,8.5,625.8,0,614.6,0z M563.5,393.4c0,8.8-7.6,16-17,16H84.7c-4.6,0-8.9-1.7-12.1-4.7c-3.2-3-5-7.1-5-11.4L70,78.7
+		C70,70,77.7,62.9,87,62.9h459.5c9.4,0,17,7.2,17,16V393.4z" />
+                            <path class="st1"
+                                d="M56.7,522.2c2,3.2,3.6,7.9,8.4,7.6c0,0,500.2,0,500.2,0c4.5,0.4,6.9-4.8,9.1-7.6H56.7z" />
+                            <path class="st2" d="M13.1,5.9H622C605.4-0.8,28.4-0.7,13.1,5.9z" />
+                            <path class="st3" d="M620.5,514.8H11.6C28.1,521.5,605.2,521.3,620.5,514.8z" />
+                            <path class="st4" d="M87.8,50.6h457.9c12.4,0,23.1,6.8,28.1,16.7c-1.6-11.7-9.9-20.7-19.8-20.7H78.2c-11.1,0-20.1,11-20.1,24.7
+		C62,59.3,73.8,50.6,87.8,50.6z" />
+                            <path class="st4" d="M545.1,425.3H84.8c-12.5,0.2-24.3-7.5-28.8-18.3c0.8,12.8,9.5,22.9,20.1,22.9h475.7c9.2,0,16.9-7.6,19.3-17.9
+		C565.6,420,556,425.3,545.1,425.3z" />
+                            <path d="M575.6,68.4c-5.4-10.8-17.2-17.8-29.9-17.8H87.8c-17.7-0.2-33.1,14.1-33,30.7l-2.3,313c0,4,0.7,7.9,2.3,11.6
+		c4.8,11.6,17.4,19.6,30.7,19.5h460.2c11.2,0,21.6-5.3,27.7-14.2c3.5-5,5.3-10.8,5.3-16.7v-313C578.8,76.9,577.7,72.5,575.6,68.4z
+		 M69.4,394.3c1.6-6.7-0.2-312.2,3.5-318.5c2.5-5.7,8.3-9.4,14.9-9.4h457.9c5.9,0,11.3,3,14.1,7.8c1.3,2.2,2,4.7,2,7.2v313
+		c0.1,8.1-7.4,15.2-16.1,15H85.5C76.8,409.6,69.2,402.4,69.4,394.3z" />
+                        </g>
+
+                        <g class="traffic-lights">
+                            <ellipse id="green" style="fill:#023008;" cx="236.9" cy="468.8" rx="14.8" ry="13.8" />
+
+                        </g>
+
+                        <g class="traffic-lights">
+                            <ellipse id="yellow" style="fill:#ffd000;" cx="318.8" cy="468.8" rx="14.8" ry="13.8" />
+                        </g>
+
+                        <g class="traffic-lights">
+                            <ellipse id="red" style="fill:#750505;" cx="400.6" cy="468.8" rx="14.8" ry="13.8" />
+                        </g>
+                    </g>
+                </svg>
+                <img id="shadow" src="img/shadow.png" alt="tv_shadow">
+            </div>
+            <video id="swing-video" autoplay muted loop>
+                <source id="video-source" src="img/videos/tv_jeok_real.mp4" type="video/mp4">
+            </video>
+        </div>
+        <!-- falling-image -->
+        <div class="falling-image"></div>
+        <div class="controller-container">
+            <input type="range" min="1" max="3" value="2" class="slider" id="slider">
+            <div class="button-container">
+                <button id="mute-button"></button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="p5.min.js"></script>
+
+    <script type="module" src="app.js"></script>
+
+</body>
+
+</html>
