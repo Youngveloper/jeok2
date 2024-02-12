@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hi-gher/jeok.git"
+    "url": "git+https://github.com/Youngveloper/jeok.git"
   },
   "keywords": [
     "jeok"
@@ -16,7 +16,7 @@
   "author": "GY Park",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hi-gher/jeok/issues"
+    "url": "https://github.com/Youngveloper/jeok/issues"
   },
-  "homepage": "https://github.com/hi-gher/jeok#readme"
+  "homepage": "https://github.com/Youngveloper/jeok#readme"
 }
