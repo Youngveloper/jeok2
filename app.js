@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const videoSources = {
       1: "img/videos/swing_click2.mp4",
       2: "img/videos/tv_jeok_real.mp4",
-      3: "img/videos/glitch3.mp4",
+      3: "img/videos/glitch.mp4",
     };
 
     const newSource = videoSources[slider.value];
