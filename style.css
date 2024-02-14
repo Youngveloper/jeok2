@@ -45,7 +45,7 @@ canvas {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 634.9px;
+    width: 880px;
 
 }
 
@@ -65,7 +65,7 @@ canvas {
     left: 50%;
     top: 46%;
     transform: translate(-50%, -46%);
-    width: 550px;
+    width: 770px;
     z-index: -1;
 }
 
@@ -152,6 +152,27 @@ canvas {
     z-index: 4;
     transition: opacity 0.3s ease-in-out;
     opacity: 1;
+}
+
+.updown {
+    animation: updown 0.3s ease-in-out forwards;
+}
+
+@keyframes updown {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    25%,
+    75% {
+        transform: translateY(-7px);
+    }
+
+    50% {
+        transform: translateY(7px);
+    }
 }
 
 /* nametags */

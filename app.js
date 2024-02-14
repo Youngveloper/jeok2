@@ -55,9 +55,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function updateVideoSource() {
     const videoSources = {
-      1: "img/videos/swing_2real.mp4",
+      1: "img/videos/swing_click2.mp4",
       2: "img/videos/tv_jeok_real.mp4",
-      3: "img/videos/glitch4.mp4",
+      3: "img/videos/glitch3.mp4",
     };
 
     const newSource = videoSources[slider.value];
@@ -167,6 +167,7 @@ document.addEventListener("DOMContentLoaded", () => {
           newImage.alt = "New Image";
 
           newImage.style.position = "absolute";
+          newImage.classList.add("updown");
 
           const randomSize = getRandomSize(randomImagePath);
           const newImageWidth = randomSize.width;
@@ -184,14 +185,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
           // gradually increase opacity
           setTimeout(() => {
-            newImage.style.transition = "opacity 0.3s ease-in-out";
+            newImage.style.transition = "opacity 0.5s ease-in-out";
             newImage.style.opacity = "1";
-          }, 30);
+          }, 50);
 
           setTimeout(() => {
             newImage.style.transition = "opacity 2s ease-in-out";
             newImage.style.opacity = "0";
-          }, 3000);
+          }, 2000);
         }
       }
       resetSliderTimeout();
@@ -229,7 +230,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (slider.value === "3") {
         const currentTime = new Date().getTime();
 
-        if (currentTime - lastImageCreationTime > 300) {
+        if (currentTime - lastImageCreationTime > 200) {
           const mouseX = p.mouseX - containerSize.left;
           const mouseY = p.mouseY - containerSize.top;
 
