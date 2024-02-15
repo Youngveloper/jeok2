@@ -173,8 +173,8 @@ document.addEventListener("DOMContentLoaded", () => {
           const newImageWidth = randomSize.width;
           const newImageHeight = randomSize.height;
 
-          newImage.style.top = mouseY - 50 + "px";
-          newImage.style.left = mouseX - 50 + "px";
+          newImage.style.top = mouseY - 100 + "px";
+          newImage.style.left = mouseX - 100 + "px";
 
           newImage.style.width = newImageWidth + "px";
           newImage.style.height = newImageHeight + "px";

@@ -45,7 +45,7 @@ canvas {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 880px;
+    width: 651px;
 
 }
 
@@ -65,7 +65,7 @@ canvas {
     left: 50%;
     top: 46%;
     transform: translate(-50%, -46%);
-    width: 770px;
+    width: 564px;
     z-index: -1;
 }
 
